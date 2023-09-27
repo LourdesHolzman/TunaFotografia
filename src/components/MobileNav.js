@@ -49,10 +49,10 @@ const MobileNav = () => {
           <Link to='/'>Inicio</Link>
         </li>
         <li>
-          <Link to='/about'>Sobre mi</Link>
+          <Link to='/about'>Sobre mí</Link>
         </li>
         <li>
-          <Link to='/portfolio'>Porfolio</Link>
+          <Link to='/portfolio'>Registros</Link>
         </li>
         <li>
           <Link to='/contact'>Contacto</Link>

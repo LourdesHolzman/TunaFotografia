@@ -32,8 +32,8 @@ const Contact = () => {
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
             className='lg:flex-1 lg:pt-32 px-4'>
-            <h1 className='h1'>Contactame</h1>
-            <p className='mb-12'>Lorem Lorem Lorem Lorem</p>
+            <h1 className='h1 '>Contactame</h1>
+           
             <form className='flex flex-col gap-y-4'>
             <div className='flex gap-x-10'>
               <input className='outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879]' type='text' placeholder='Nombre' />

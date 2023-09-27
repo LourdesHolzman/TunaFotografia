@@ -1,9 +1,10 @@
 import React, {useContext} from 'react';
 //import icons
 import {
-  ImFacebook,
-  ImInstagram,
-} from 'react-icons/im';
+  FaFacebook,
+  FaInstagram,
+  FaWhatsapp,
+} from 'react-icons/fa';
 //import cursor context
 import { CursorContext } from '../context/CursorContext';
 
@@ -17,12 +18,17 @@ const Socials = () => {
     <ul className='flex gap-x-4'>
       <li>
         <a href='https://www.facebook.com/tunafoto/' target='_blank'>
-        <ImFacebook/>
+        <FaFacebook/>
         </a>
       </li>
       <li>
         <a href='https://www.instagram.com/tuna_foto/' target='_blank'>
-        <ImInstagram/>
+        <FaInstagram/>
+        </a>
+      </li>
+      <li>
+        <a href='https://wa.me/+542954545210' target='_blank'>
+        <FaWhatsapp/>
         </a>
       </li>
     </ul>

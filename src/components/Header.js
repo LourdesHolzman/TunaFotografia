@@ -34,12 +34,12 @@ const Header = () => {
         <Link 
         to={'/about'} 
         className='text-[#696c6d] hover:text-primary trasition'>
-          Sobre mi
+          Sobre mí
         </Link>
         <Link 
         to={'/portfolio'} 
         className='text-[#696c6d] hover:text-primary trasition'>
-          Porfolio
+          Registros
         </Link>
         <Link 
         to={'/contact'} 
