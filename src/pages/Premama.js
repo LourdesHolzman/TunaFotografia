@@ -73,6 +73,8 @@ const Premama = () => {
               Para este momento tan especial que estan viviendo les propongo una sesión de fotos en exterior, con la naturaleza. 
               <br/>
               Tu pareja e hijos están invitados a participar en las fotos.
+              <br/>
+              Se recomienda hacer las fotos entre la semana 28 y la 34.
               
             </p>
           <Link to={'/contact'} className='btn mb-[30px] mx-auto lg:mx-0'>

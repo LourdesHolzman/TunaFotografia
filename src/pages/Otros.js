@@ -73,7 +73,7 @@ const Otros = () => {
             <p className='mb-12 mt-2 max-w-sm'>
               En esta sección contactame por algo que te interese que fotografíe.
               <br/>
-              Puede ser foto carnet, recién nacido, parejas, foto-producto, personal, lo que te interese lo charlamos. 
+              Puede ser foto carnet, recién nacido, parejas, foto-producto, personal, mascotas, lo que te interese lo charlamos. 
             </p>
           <Link to={'/contact'} className='btn mb-[30px] mx-auto lg:mx-0'>
           Contactame

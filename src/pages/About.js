@@ -38,12 +38,22 @@ const About = () => {
           className='flex-1 pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start'>
           <h1 className='h1 lg:mt-20'>Sobre mí</h1>
           
-          <p className='mb-12 max-w-sm'>
+          <p className='mb-12 max-w-xl sm:max-w-xl '>
           ¡Hola! Soy Lupe. Estudié Audiovisuales.
           Me gusta captar, capturar, lo natural y simple de los momentos.
           <br/>
           <br/>
           <b>TUNA</b> representa la creación de infinitos recuerdos de una forma simple y natural. 
+          <br/>
+          {/*Simple y natural? Porque asi es el cactus también, simple y natural pero a veces al enroscarce tanto es un poco sensible y trata defenderse con sus espinas.*/}
+          
+          <br/>
+
+          Ver fotos es una forma de viajar en el tiempo. Gracias a mi papas cada uno de mis hermanos tiene uno o dos albúm, cosa que agradezco. ¿Por qué? Porque todas esas fotos nos permiten ver emociones, cambios, personas que ya no estan, recordar momentos que tal vez si no estarian registradas no las recordariamos de esa forma.
+          Por eso es tan lindo tener registros.
+
+
+
           </p>
           <Link to={'/portfolio'} className='btn'>Registros</Link>
           </motion.div>
